@@ -4,10 +4,8 @@ A real-time interactive contour visualization tool written in C using raylib.
 Load a grayscale image, adjust an isovalue threshold, and watch contour lines
 redraw live across the image field.
 
-* example 1:
-![Marching Squares Demo 1](assets/cangas-de-onis.gif)
+![Marching Squares Demo 1](assets/cangas-de-onis.gif) \
 
-* example 2:
 ![Marching Squares Demo 2](assets/shape.gif)
 
 ## Algorithm
