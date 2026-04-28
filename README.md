@@ -4,7 +4,7 @@ A real-time interactive contour visualization tool written in C using raylib.
 Load a grayscale image, adjust an isovalue threshold, and watch contour lines
 redraw live across the image field.
 
-![Marching Squares Demo 1](assets/cangas-de-onis.gif) \
+![Marching Squares Demo 1](assets/cangas-de-onis.gif)
 
 ![Marching Squares Demo 2](assets/shape.gif)
 
@@ -12,7 +12,7 @@ redraw live across the image field.
 
 ### The Grid
 
-The image is treated as a scalar field. Each pixel holds a value in [0, 255].
+The image is treated as a scalar field. Each pixel holds a value i \n [0, 255].
 The algorithm operates on a contouring grid of size (W-1) x (H-1), where each
 cell is defined by four neighboring pixel corners: top-left, top-right,
 bottom-right, bottom-left.
